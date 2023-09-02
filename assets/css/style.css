@@ -1,0 +1,654 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+body {
+    background-color: whitesmoke;
+    /* background-image: linear-gradient(to right bottom, #f60000, #fd5800, #ff8400, #ffab00, #ffce00, #ffbf00, #ffaf00, #ffc300, #ff8142, #ff3a77,#5f10dd, #5f00f8, #7e00f8, #9800f8, #ae00f8, #c200f8);*/
+    font-family: lato, sans-serif; 
+}
+
+#container {    
+    height: 1768px;
+    width: 1308px;
+    margin: 100px auto;
+    background: #f7f7f7;
+    box-shadow: 15px 15px 9px rgba(0, 0, 0, 0.3);
+}
+
+.grid {
+    display: grid;
+}
+
+/* minmax define um valor mínimo e máximo para a coluna */
+.grid-header {
+    grid-template-columns: minmax(264px, 264px) 820px 224px;
+    width: 1308px;
+}
+
+.logoIEQ {
+    display: flex;
+    width: 260px;
+    height: 180px;
+    border: 3px solid black;
+}
+
+.headerTop {
+    height: 120px;
+    border-top: 3px solid black;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+    /* border: 3px solid black; */
+}
+
+.headerTop p {
+    height: 95px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+    padding-top: 25px;
+}
+
+.numLocation {
+    padding-top: 5px;
+    padding-left: 5px;
+    height: 115px;
+    border-top: 3px solid black;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+}
+
+.subgrid {
+    display: grid;
+    grid-template-columns: 490px 330px 224px;
+    align-content: center;
+}
+
+.congregation {
+    width: 1043px;
+    height: 64px;
+}
+
+.church {
+    height: 53px;
+    padding-top: 5px;
+    padding-left: 5px;
+    border-bottom: 3px solid black;
+    border-right: 3px solid black;
+}
+
+
+.cnpj {
+    height: 53px;
+    padding-top: 5px;
+    padding-left: 5px;
+    border-bottom: 3px solid black;
+    border-right: 3px solid black;
+}
+
+.date {
+    height: 53px;
+    padding-top: 5px;
+    padding-left: 5px;
+    border-bottom: 3px solid black;
+    border-right: 3px solid black;
+}
+
+.grid-worker-chart {
+    grid-template-columns: 1084px 224px;
+    width: 1308px;
+}
+
+.worker {
+    height: 37px;
+    padding-top: 5px;
+    padding-left: 5px;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+    border-left: 3px solid black;
+}
+
+.chart {
+    height: 37px;
+    padding-top: 5px;
+    padding-left: 5px;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+}
+
+.grid-body-1 {
+    grid-template-columns: 324px 214px 284px 100px 284px 100px;
+    width: 1308px;
+}
+
+.week {
+    width: 315px;
+    height: 60px;
+    padding-top: 5px;
+    padding-left: 5px;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+}
+
+.deacons {
+    width: 315px;
+    height: 26px;
+    padding-top: 5px;
+    padding-left: 5px;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+}
+
+.time {
+    width: 208px;
+    height: 60px;
+    padding-top: 5px;
+    padding-left: 5px;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+}
+
+.totalDeacons {
+    width: 208px;
+    height: 26px;
+    text-align: center;
+    padding-top: 5px;
+    padding-left: 5px;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+}
+
+
+.testimonials,
+.conversions {
+    width: 278px;
+    height: 26px;
+    padding-top: 5px;
+    padding-left: 5px;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+}
+
+.baptized,
+.visitors {
+    width: 278px;
+    height: 26px;
+    padding-top: 5px;
+    padding-left: 5px;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+}
+
+.children,
+.gifts {
+    width: 278px;
+    height: 26px;
+    padding-top: 5px;
+    padding-left: 5px;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+}
+
+
+.totalTestimonials,
+.totalConversions {
+    width: 94px;
+    height: 26px;
+    text-align: center;
+    padding-top: 5px;
+    padding-left: 5px;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+}
+
+.totalBaptized,
+.totalVisitors {
+    width: 94px;
+    height: 26px;
+    text-align: center;
+    padding-top: 5px;
+    padding-left: 5px;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+}
+
+.totalChildren,
+.totalGifts {
+    width: 94px;
+    height: 26px;
+    text-align: center;
+    padding-top: 5px;
+    padding-left: 5px;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+}
+
+.grid-body-2 {
+    grid-template-columns: 654px 654px;
+    width: 1308px;
+}
+
+.pastorsPresent {
+    width: 650px;
+    height: 25px;
+    padding-top: 5px;
+    text-align: center;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+    border-left: 3px solid black;
+}
+
+.specialVisits {
+    height: 25px;
+    padding-top: 5px;
+    text-align: center;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+}
+
+.totalPastorsPresent {
+    width: 650px;
+    height: 30px;
+    text-align: center;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+    border-left: 3px solid black;
+}
+
+.totalSpecialVisits {
+    height: 30px;
+    text-align: center;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+}
+
+.preacher {
+    width: 1297px;
+    height: 30px;
+    padding-top: 5px;
+    padding-left: 5px;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+    border-left: 3px solid black;
+}
+
+.statement,
+.decimists,
+.fees,
+.collection {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    width: 1302px;
+    height: 40px;
+    padding-top: 10px;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+    border-left: 3px solid black;
+    border-top: 2px solid black;
+}
+
+.grid-body-3 {
+    grid-template-columns: 103px 276px 275px 100px 276px 275px;
+    width: 1308px;
+}
+
+.numberStatement {
+    width: 99px;
+    height: 26px;
+    padding-top: 5px;
+    text-align: center;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+    border-left: 3px solid black;
+}
+
+.titheOffers {
+    width: 270px;
+    height: 26px;
+    padding-top: 5px;
+    padding-left: 5px;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+}
+
+.resultStatement {
+    width: 269px;
+    height: 26px;
+    padding-top: 5px;
+    padding-left: 5px;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+}
+
+.numberStatement1 {
+    width: 99px;
+    height: 26px;
+    text-align: center;
+    padding-top: 5px;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+}
+
+.otherOffers {
+    width: 270px;
+    height: 26px;
+    padding-top: 5px;
+    padding-left: 5px;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+}
+
+.resultStatement1 {
+    width: 270px;
+    height: 26px;
+    padding-top: 5px;
+    padding-left: 5px;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+}
+
+.grid-body-4 {
+    grid-template-columns: 103px 761px 266px 175px;
+    width: 1308px;
+}
+
+.headerNumber {
+    width: 99px;
+    height: 32px;
+    padding-top: 5px;
+    text-align: center;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+    border-left: 3px solid black;
+}
+
+.titheNumber {
+    font-weight: bold;
+    width: 99px;
+    height: 26px;
+    padding-top: 5px;
+    text-align: center;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+    border-left: 3px solid black;
+}
+
+.headerName {
+    font-size: 22px;
+    width: 760px;
+    height: 32px;
+    padding-top: 5px;
+    text-align: center;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+}
+
+.titheName {
+    width: 755px;
+    height: 26px;
+    padding-top: 5px;
+    padding-left: 5px;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+}
+
+.headerForm {
+    font-size: 22px;
+    width: 265px;
+    height: 32px;
+    padding-top: 5px;
+    text-align: center;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+}
+
+.titheForm {
+    width: 260px;
+    height: 26px;
+    padding-top: 5px;
+    padding-left: 5px;
+    text-align: center;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+}
+
+.headerValue {
+    font-size: 22px;
+    width: 175px;
+    height: 32px;
+    padding-top: 5px;
+    text-align: center;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+}
+
+.titheValue {
+    width: 175px;
+    height: 26px;
+    padding-top: 5px;
+    text-align: center;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+}
+
+.grid-body-4-1 {
+    grid-template-columns: 1130px 175px;
+    width: 1308px;
+}
+
+.totalHeaderTithe {
+    font-size: 22px;
+    font-weight: bold;
+    width: 1121px;
+    height: 27px;
+    padding-right: 5px;
+    text-align: right;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+    border-left: 3px solid black;
+}
+
+.totalValueTithe {
+    font-size: 22px;
+    font-weight: bold;
+    width: 175px;
+    height: 27px;
+    text-align: center;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+}
+
+.grid-body-5 {
+    grid-template-columns: 654px 654px;
+    width: 1308px;
+}
+
+.nameDeacons {
+    font-size: 22px;
+    width: 650px;
+    height: 32px;
+    padding-top: 5px;
+    text-align: center;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+    border-left: 3px solid black;
+}
+
+.subscriptions {
+    font-size: 22px;
+    height: 32px;
+    padding-top: 5px;
+    text-align: center;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+}
+
+.totalNameDeacons {
+    width: 647px;
+    height: 27px;
+    padding-top: 10px;
+    padding-left: 3px;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+    border-left: 3px solid black;
+}
+
+.totalSubscriptions {
+    height: 27px;
+    padding-top: 10px;
+    text-align: center;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+}
+
+.nameTreasurer {
+    font-size: 20px;
+    width: 647px;
+    height: 30px;
+    padding-top: 5px;
+    padding-left: 3px;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+    border-left: 3px solid black;
+}
+
+.subscriptionsTreasurer {
+    font-size: 20px;
+    height: 30px;
+    padding-top: 5px;
+    padding-left: 5px;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+}
+
+.grid-body-6 {
+    grid-template-columns: 100px 153px 253px 174px 253px 115px 110px 150px;
+    width: 1308px;
+}
+
+
+.feesCND {
+    text-align: center;
+    height: 25px;
+    padding-top: 5px;
+    border-bottom: 3px solid black;
+    border-left: 3px solid black;
+}
+
+.feesSOCIAL {
+    text-align: center;
+    height: 25px;
+    padding-top: 5px;
+    border-bottom: 3px solid black;
+    border-left: 3px solid black;
+}
+
+.feesMisNational {
+    text-align: center;
+    height: 25px;
+    padding-top: 5px;
+    border-bottom: 3px solid black;
+    border-left: 3px solid black;
+}
+
+.feesSupervision {
+    text-align: center;
+    height: 25px;
+    padding-top: 5px;
+    border-bottom: 3px solid black;
+    border-left: 3px solid black;
+}
+
+.feesMisState {
+    text-align: center;
+    height: 25px;
+    padding-top: 5px;
+    border-bottom: 3px solid black;
+    border-left: 3px solid black;
+}
+
+.feesRegion {
+    text-align: center;
+    height: 25px;
+    padding-top: 5px;
+    border-bottom: 3px solid black;
+    border-left: 3px solid black;
+}
+
+.feesCED {
+    text-align: center;
+    height: 25px;
+    padding-top: 5px;
+    border-bottom: 3px solid black;
+    border-left: 3px solid black;
+}
+
+.feesLocation {
+    text-align: center;
+    height: 25px;
+    padding-top: 5px;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+    border-left: 3px solid black;
+}
+
+.feesResult {
+    text-align: center;
+    height: 25px;
+    padding-top: 5px;
+    border-bottom: 3px solid black;
+    border-left: 3px solid black;
+}
+
+.feesResultLocation {
+    text-align: center;
+    height: 25px;
+    padding-top: 5px;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+    border-left: 3px solid black;
+}
+
+.grid-body-7 {
+    grid-template-columns: 300px 148px 280px 280px 300px;
+    width: 1308px;
+}
+
+.localCash {
+    font-size: 20px;
+    text-align: center;
+    height: 30px;
+    padding-top: 5px;
+    border-bottom: 3px solid black;
+    border-left: 3px solid black;
+}
+
+.cashValue, .banck1, .banck2, .agency1, .agency2 {
+    font-size: 20px;
+    height: 30px;
+    padding-top: 5px;
+    padding-left: 3px;
+    border-bottom: 3px solid black;
+    border-left: 3px solid black;
+}
+
+.accountChurch {
+    font-size: 19px;
+    text-align: center;
+    height: 70px;
+    padding-top: 3px;
+    border-bottom: 3px solid black;
+    border-left: 3px solid black;
+}
+
+.value1, .value2 {
+    font-size: 20px;
+    height: 30px;
+    padding-top: 5px;
+    padding-left: 3px;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+    border-left: 3px solid black;
+}
