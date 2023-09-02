@@ -13,12 +13,15 @@ Em breve com um auto preelnchimento para facilitar ainda mais o procedimento.
 O Relatório 1 esta com o fundo branco com bordas em 3px na cor preta, efeito de sombra e fundo na cor branca.
 O Relatório 2 esta com o fundo branco com bordas em 3px na cor preta, efeito de sombra e fundo com background gradient.
 
+<br>
 
 Relatório 1
+
 ![Web 1](https://github.com/vitor912/Relatorio-de-Culto-IEQ/blob/main/assets/img/tala1.png)
 
 Relatório 2
-![Web 1](https://github.com/vitor912/Relatorio-de-Culto-IEQ/blob/main/assets/img/tala2.png)
+
+![Web 2](https://github.com/vitor912/Relatorio-de-Culto-IEQ/blob/main/assets/img/tala2.png)
 
 # Tecnologias utilizadas
 
